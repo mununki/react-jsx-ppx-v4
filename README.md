@@ -1,6 +1,6 @@
 # Example project for JSX PPX V4
 
-1. Install dependencies
+1. Install dependencies (takes a while...)
 
 ```sh
 npm install
@@ -11,7 +11,7 @@ yarn
 2. Build the project
 
 ```sh
-yarn res:cleaen && yarn res:watch
+yarn res:clean && yarn res:watch
 ```
 
 3. Run the project
