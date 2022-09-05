@@ -11,7 +11,7 @@ yarn
 2. Build the project
 
 ```sh
-yarn res:cleaen && yarn res:watch
+yarn res:clean && yarn res:watch
 ```
 
 3. Run the project
