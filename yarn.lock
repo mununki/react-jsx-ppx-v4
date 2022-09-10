@@ -7392,9 +7392,10 @@ requires-port@^1.0.0:
   resolved "https://registry.npmjs.org/requires-port/-/requires-port-1.0.0.tgz"
   integrity sha512-KigOCHcocU3XODJxsu8i/j8T9tzT4adHiecwORRQ0ZZFcp7ahwXuRU1m+yuO90C5ZUyGeGfocHDI14M3L3yDAQ==
 
-rescript@rescript-lang/rescript-compiler#master:
+rescript@^10.1.0-alpha.1:
   version "10.1.0-alpha.1"
-  resolved "git+ssh://git@github.com/rescript-lang/rescript-compiler.git#16dc2e2858f0d259514c295a4878e44c38b9382b"
+  resolved "https://registry.yarnpkg.com/rescript/-/rescript-10.1.0-alpha.1.tgz#20cc45cf028d64c9b3f43a42e80c774f3264e795"
+  integrity sha512-nz7AzU3zSipuQtNqwllqjpyzgbwoim8UWKjNvaO4bU/wca1xQ9isMJfAx/1DY8vKc6egab2qj7yu9eitTxkJaA==
 
 resolve-cwd@^3.0.0:
   version "3.0.0"
