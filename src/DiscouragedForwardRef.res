@@ -1,13 +1,13 @@
 module FancyInput = {
   @react.component
-  let make = React.forwardRef((~className=?, ~children, ref_) =>
+  let make = React.forwardRef((~className=?, ~children, ref) =>
     <div>
       <input
         type_="text"
         ?className
         ref=?{
           let _ = ()
-          Js.Nullable.toOption(ref_)->Belt.Option.map(ReactDOM.Ref.domRef)
+          Js.Nullable.toOption(ref)->Belt.Option.map(ReactDOM.Ref.domRef)
         }
       />
       children
