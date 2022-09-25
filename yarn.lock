@@ -1512,9 +1512,10 @@
     schema-utils "^3.0.0"
     source-map "^0.7.3"
 
-"@rescript/react@mattdamon108/rescript-react#jsx":
-  version "0.11.0"
-  resolved "git+ssh://git@github.com/mattdamon108/rescript-react.git#9ac34b0ee02a0e3598826229741fb01a3812ad7c"
+"@rescript/react@^0.11.0-alpha.1":
+  version "0.11.0-alpha.1"
+  resolved "https://registry.npmjs.org/@rescript/react/-/react-0.11.0-alpha.1.tgz"
+  integrity sha512-9JN9+K1MFrVIMncAJlCM5MjENP/MfPZxXmIKAD31cAYoDPAeSzYn/+theay93B/BsF71tSw8UUKQEgG8MB6e/g==
 
 "@rollup/plugin-babel@^5.2.0":
   version "5.3.1"
@@ -7392,10 +7393,10 @@ requires-port@^1.0.0:
   resolved "https://registry.npmjs.org/requires-port/-/requires-port-1.0.0.tgz"
   integrity sha512-KigOCHcocU3XODJxsu8i/j8T9tzT4adHiecwORRQ0ZZFcp7ahwXuRU1m+yuO90C5ZUyGeGfocHDI14M3L3yDAQ==
 
-rescript@^10.1.0-alpha.1:
-  version "10.1.0-alpha.1"
-  resolved "https://registry.yarnpkg.com/rescript/-/rescript-10.1.0-alpha.1.tgz#20cc45cf028d64c9b3f43a42e80c774f3264e795"
-  integrity sha512-nz7AzU3zSipuQtNqwllqjpyzgbwoim8UWKjNvaO4bU/wca1xQ9isMJfAx/1DY8vKc6egab2qj7yu9eitTxkJaA==
+rescript@^10.1.0-alpha.2:
+  version "10.1.0-alpha.2"
+  resolved "https://registry.npmjs.org/rescript/-/rescript-10.1.0-alpha.2.tgz"
+  integrity sha512-uaWt6+Br7rxV339mE2ir80fjihq3XtQ88uPYt4otd1VgFXQRA+x/kof1xAUQULMEJKxBz0ifDDoL+3K6JiNG7Q==
 
 resolve-cwd@^3.0.0:
   version "3.0.0"
