@@ -1,8 +1,7 @@
 {
   "name": "react-ppx-v4",
   "jsx": {
-    "version": 4,
-    "mode": "classic"
+    "version": 3
   },
   "sources": [
     {
@@ -19,13 +18,15 @@
   "suffix": ".bs.js",
   "namespace": false,
   "bs-dependencies": [
-    "@rescript/react"
+    "@rescript/react",
+    "rescript-relay"
   ],
   "warnings": {
     "error": true,
     "number": "-48"
   },
   "bsc-flags": [
-    "-open Belt"
+    "-open Belt",
+    "-open ReactV3"
   ]
 }
