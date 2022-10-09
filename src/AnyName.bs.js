@@ -11,14 +11,10 @@ function optionMap(x) {
 }
 
 function AnyName$A(props) {
-  var tmp = {};
-  if (props.id !== undefined) {
-    tmp.id = Caml_option.valFromOption(props.id);
-  }
-  if (props.name !== undefined) {
-    tmp.name = Caml_option.valFromOption(props.name);
-  }
-  return React.createElement("div", tmp, "component A");
+  return React.createElement("div", {
+              id: props.id,
+              name: props.name
+            }, "component A");
 }
 
 var A = {

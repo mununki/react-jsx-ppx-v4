@@ -1512,10 +1512,8 @@
     schema-utils "^3.0.0"
     source-map "^0.7.3"
 
-"@rescript/react@^0.11.0-alpha.1":
+"@rescript/react@file:../rescript-react":
   version "0.11.0-alpha.1"
-  resolved "https://registry.npmjs.org/@rescript/react/-/react-0.11.0-alpha.1.tgz"
-  integrity sha512-9JN9+K1MFrVIMncAJlCM5MjENP/MfPZxXmIKAD31cAYoDPAeSzYn/+theay93B/BsF71tSw8UUKQEgG8MB6e/g==
 
 "@rollup/plugin-babel@^5.2.0":
   version "5.3.1"
@@ -7393,10 +7391,8 @@ requires-port@^1.0.0:
   resolved "https://registry.npmjs.org/requires-port/-/requires-port-1.0.0.tgz"
   integrity sha512-KigOCHcocU3XODJxsu8i/j8T9tzT4adHiecwORRQ0ZZFcp7ahwXuRU1m+yuO90C5ZUyGeGfocHDI14M3L3yDAQ==
 
-rescript@^10.1.0-alpha.2:
-  version "10.1.0-alpha.2"
-  resolved "https://registry.npmjs.org/rescript/-/rescript-10.1.0-alpha.2.tgz"
-  integrity sha512-uaWt6+Br7rxV339mE2ir80fjihq3XtQ88uPYt4otd1VgFXQRA+x/kof1xAUQULMEJKxBz0ifDDoL+3K6JiNG7Q==
+"rescript@file:../rescript-compiler":
+  version "10.1.0-rc.1"
 
 resolve-cwd@^3.0.0:
   version "3.0.0"

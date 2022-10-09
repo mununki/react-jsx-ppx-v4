@@ -5,9 +5,17 @@ let make = () => {
   <RescriptReactErrorBoundary fallback={_ => <div> {`error!`->React.string} </div>}>
     <React.Suspense fallback={<div> {`loading..`->React.string} </div>}>
       <div>
-        <V4 />
+        // <V4 />
         {`div!`->React.string}
       </div>
+      <DiscouragedForwardRef />
+      <ForwardRef />
+      <NoPropsWithKey.V4CA />
+      <DomRef />
+      <StringAttribute.V4 barStyle=#darkContent />
+      <Return msg="!!!" />
     </React.Suspense>
   </RescriptReactErrorBoundary>
 }
+
+type f = JsxDOM.domProps

@@ -18,7 +18,7 @@ var FancyInput = {
   make: make
 };
 
-function DiscouragedForwardRef(props) {
+function ForwardRef$V4C(props) {
   var input = React.useRef(null);
   var onClick = function (param) {
     Belt_Option.forEach(Caml_option.nullable_to_opt(input.current), (function (input) {
@@ -26,7 +26,6 @@ function DiscouragedForwardRef(props) {
           }));
   };
   return React.createElement("div", undefined, React.createElement(make, {
-                  className: "fancy",
                   children: React.createElement("button", {
                         onClick: onClick
                       }, "Click to focus"),
@@ -34,10 +33,19 @@ function DiscouragedForwardRef(props) {
                 }));
 }
 
-var make$1 = DiscouragedForwardRef;
+var V4C = {
+  FancyInput: FancyInput,
+  make: ForwardRef$V4C
+};
+
+function ForwardRef(props) {
+  return React.createElement(ForwardRef$V4C, {});
+}
+
+var make$1 = ForwardRef;
 
 export {
-  FancyInput ,
+  V4C ,
   make$1 as make,
 }
 /* make Not a pure module */

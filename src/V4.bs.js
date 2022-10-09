@@ -2,7 +2,6 @@
 
 import * as React from "react";
 import * as Belt_Option from "rescript/lib/es6/belt_Option.js";
-import * as Caml_option from "rescript/lib/es6/caml_option.js";
 
 function V4$Foo(props) {
   return React.createElement("div", undefined, props.name);
@@ -23,11 +22,9 @@ var Bar = {
 function V4$Baz(props) {
   var name = props.name;
   var name$1 = name !== undefined ? name : "baz";
-  var tmp = {};
-  if (props.id2 !== undefined) {
-    tmp.id = Caml_option.valFromOption(props.id2);
-  }
-  return React.createElement("div", tmp, name$1, props.children);
+  return React.createElement("div", {
+              id: props.id2
+            }, name$1, props.children);
 }
 
 var Baz = {
