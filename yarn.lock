@@ -1512,10 +1512,10 @@
     schema-utils "^3.0.0"
     source-map "^0.7.3"
 
-"@rescript/react@^0.11.0-alpha.1":
-  version "0.11.0-alpha.1"
-  resolved "https://registry.npmjs.org/@rescript/react/-/react-0.11.0-alpha.1.tgz"
-  integrity sha512-9JN9+K1MFrVIMncAJlCM5MjENP/MfPZxXmIKAD31cAYoDPAeSzYn/+theay93B/BsF71tSw8UUKQEgG8MB6e/g==
+"@rescript/react@^0.11.0-rc.2":
+  version "0.11.0-rc.2"
+  resolved "https://registry.yarnpkg.com/@rescript/react/-/react-0.11.0-rc.2.tgz#bfd50ab26ac6af6c5e139f41efed6e09c4da7beb"
+  integrity sha512-G0E6yzRJR5PVTGObuvqQzk7SAiqrXC+AVuhNkPQwE+RTKkfJCBlhNupk1HmncEh/vhmz4VOGsN7I8cRVyv5cvA==
 
 "@rollup/plugin-babel@^5.2.0":
   version "5.3.1"
@@ -7393,10 +7393,10 @@ requires-port@^1.0.0:
   resolved "https://registry.npmjs.org/requires-port/-/requires-port-1.0.0.tgz"
   integrity sha512-KigOCHcocU3XODJxsu8i/j8T9tzT4adHiecwORRQ0ZZFcp7ahwXuRU1m+yuO90C5ZUyGeGfocHDI14M3L3yDAQ==
 
-rescript@^10.1.0-alpha.2:
-  version "10.1.0-alpha.2"
-  resolved "https://registry.npmjs.org/rescript/-/rescript-10.1.0-alpha.2.tgz"
-  integrity sha512-uaWt6+Br7rxV339mE2ir80fjihq3XtQ88uPYt4otd1VgFXQRA+x/kof1xAUQULMEJKxBz0ifDDoL+3K6JiNG7Q==
+rescript@^10.1.0-rc.2:
+  version "10.1.0-rc.2"
+  resolved "https://registry.yarnpkg.com/rescript/-/rescript-10.1.0-rc.2.tgz#c24bfe853f97c0ed6556ebd388e84b76e1cf994f"
+  integrity sha512-CZuzCjc4gc78WBd/oEUmrz8k6hoR3DiEo6A1myJ9EkkBV97jZM92IcFSxbQJZ6SFr4bvsym4WbvNfQ0AYBXQ3g==
 
 resolve-cwd@^3.0.0:
   version "3.0.0"
