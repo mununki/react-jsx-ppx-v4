@@ -12,8 +12,6 @@ let make = () => {
       <ForwardRef />
       <NoPropsWithKey.V4CA />
       <DomRef />
-      <StringAttribute.V4 barStyle=#darkContent />
-      <Return msg="!!!" />
     </React.Suspense>
   </RescriptReactErrorBoundary>
 }

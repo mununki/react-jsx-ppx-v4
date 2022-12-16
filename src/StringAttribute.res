@@ -42,11 +42,10 @@ module V4 = {
   @module("react-native")
   external make: React.componentLike<
     props<
-      @string
       [
         | #default
-        | @as("light-content") #lightContent
-        | @as("dark-content") #darkContent
+        | #"light-content"
+        | #"dark-content"
       ],
     >,
     React.element,

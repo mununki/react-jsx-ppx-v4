@@ -1512,8 +1512,10 @@
     schema-utils "^3.0.0"
     source-map "^0.7.3"
 
-"@rescript/react@file:../rescript-react":
-  version "0.11.0-alpha.1"
+"@rescript/react@^0.11.0-rc.3":
+  version "0.11.0-rc.3"
+  resolved "https://registry.yarnpkg.com/@rescript/react/-/react-0.11.0-rc.3.tgz#505b1ef91099f825f273f96edc92f576874a9369"
+  integrity sha512-ieG8mgZ72yiBWidoIAbSr7ZQZHyzNjaILGNHro7XUXlr/Y2MyQfgB3fyqN2XXZ5SCQ8JXmq03ajIpOn6IanV6A==
 
 "@rollup/plugin-babel@^5.2.0":
   version "5.3.1"
@@ -6316,6 +6318,9 @@ p-try@^2.0.0:
   resolved "https://registry.npmjs.org/p-try/-/p-try-2.2.0.tgz"
   integrity sha512-R4nPAVTAU0B9D35/Gk3uJf/7XYbQcyohSKdvAxIRSNghFl4e71hVoGnBNQz9cWaXxO2I10KTC+3jMdvvoKw6dQ==
 
+package1@./package1:
+  version "1.0.0"
+
 param-case@^3.0.4:
   version "3.0.4"
   resolved "https://registry.npmjs.org/param-case/-/param-case-3.0.4.tgz"
@@ -7392,7 +7397,7 @@ requires-port@^1.0.0:
   integrity sha512-KigOCHcocU3XODJxsu8i/j8T9tzT4adHiecwORRQ0ZZFcp7ahwXuRU1m+yuO90C5ZUyGeGfocHDI14M3L3yDAQ==
 
 "rescript@file:../rescript-compiler":
-  version "10.1.0-rc.1"
+  version "11.0.0-alpha.1"
 
 resolve-cwd@^3.0.0:
   version "3.0.0"

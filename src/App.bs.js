@@ -2,10 +2,8 @@
 
 import * as React from "react";
 import * as DomRef from "./DomRef.bs.js";
-import * as Bar from "@foo/bar";
 import * as ForwardRef from "./ForwardRef.bs.js";
 import * as Caml_option from "rescript/lib/es6/caml_option.js";
-import * as ReactNative from "react-native";
 import * as NoPropsWithKey from "./NoPropsWithKey.bs.js";
 import * as DiscouragedForwardRef from "./DiscouragedForwardRef.bs.js";
 import * as RescriptReactErrorBoundary from "@rescript/react/src/RescriptReactErrorBoundary.bs.js";
@@ -15,13 +13,7 @@ function App(props) {
               children: React.createElement(React.Suspense, {
                     children: Caml_option.some(null),
                     fallback: Caml_option.some(React.createElement("div", undefined, "loading.."))
-                  }, React.createElement("div", undefined, "div!"), React.createElement(DiscouragedForwardRef.make, {}), React.createElement(ForwardRef.make, {}), React.createElement(NoPropsWithKey.V4CA.make, {}), React.createElement(DomRef.make, {}), React.createElement(ReactNative.StatusBar, {
-                        barStyle: "darkContent"
-                      }), React.createElement((function (prim) {
-                          return Bar.SomeComponent(prim);
-                        }), {
-                        msg: "!!!"
-                      })),
+                  }, React.createElement("div", undefined, "div!"), React.createElement(DiscouragedForwardRef.make, {}), React.createElement(ForwardRef.make, {}), React.createElement(NoPropsWithKey.V4CA.make, {}), React.createElement(DomRef.make, {})),
               fallback: (function (param) {
                   return React.createElement("div", undefined, "error!");
                 })

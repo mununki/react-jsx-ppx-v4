@@ -3,10 +3,11 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@rescript/react": "file:/Users/woonki/Github/projects/rescript-react",
+    "@rescript/react": "^0.11.0-rc.3",
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.3.0",
     "@testing-library/user-event": "^13.5.0",
+    "package1": "./package1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-scripts": "5.0.1",
@@ -14,9 +15,9 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "res:clean": "rescript clean",
-    "res:watch": "rescript build -w",
-    "res:build": "rescript build",
+    "res:clean": "/Users/woonki/Github/projects/rescript-compiler/rescript clean",
+    "res:watch": "/Users/woonki/Github/projects/rescript-compiler/rescript build -w",
+    "res:build": "/Users/woonki/Github/projects/rescript-compiler/rescript build",
     "start": "yarn clean && react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",

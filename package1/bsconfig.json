@@ -1,7 +1,7 @@
 {
-  "name": "react-ppx-v4",
-  "jsx": {
-    "version": 4
+  "name": "package1",
+  "reason": {
+    "react-jsx": 3
   },
   "sources": [
     {
@@ -17,10 +17,6 @@
   ],
   "suffix": ".bs.js",
   "namespace": false,
-  "bs-dependencies": [
-    "@rescript/react",
-    "package1"
-  ],
   "warnings": {
     "error": true,
     "number": "-48"

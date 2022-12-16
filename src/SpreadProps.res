@@ -18,12 +18,12 @@ let p1: A.props<_> = {x: "x1", y: "y1"}
 // let c1 = <A {...p} />
 
 // reversed order
-let _c2 = <A {...p} x="x" />
+// let _c2 = <A {...p} x="x" />
 
 // domProps
-let dp: ReactDOM.domProps = {id: "id", name: "ReScript"}
-let _c3 = <div {...dp} />
-let _c4 = <div {...dp} x="x" method="" />
+// let dp: ReactDOM.domProps = {id: "id", name: "ReScript"}
+// let _c3 = <div {...dp} />
+// let _c4 = <div {...dp} x="x" method="" />
 
 /* Copyright (C) 2022- Authors of ReScript
  *
