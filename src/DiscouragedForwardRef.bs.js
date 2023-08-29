@@ -3,21 +3,21 @@
 import * as React from "react";
 import * as Belt_Option from "rescript/lib/es6/belt_Option.js";
 import * as Caml_option from "rescript/lib/es6/caml_option.js";
+import * as JsxRuntime from "react/jsx-runtime";
 
 var make = React.forwardRef(function (props, ref) {
-      var tmp = {
-        type: "text"
-      };
-      var tmp$1 = Belt_Option.map((ref == null) ? undefined : Caml_option.some(ref), (function (prim) {
-              return prim;
-            }));
-      if (tmp$1 !== undefined) {
-        tmp.ref = Caml_option.valFromOption(tmp$1);
-      }
-      if (props.className !== undefined) {
-        tmp.className = Caml_option.valFromOption(props.className);
-      }
-      return React.createElement("div", undefined, React.createElement("input", tmp), props.children);
+      return JsxRuntime.jsxs("div", {
+                  children: [
+                    JsxRuntime.jsx("input", {
+                          ref: Belt_Option.map((ref == null) ? undefined : Caml_option.some(ref), (function (prim) {
+                                  return prim;
+                                })),
+                          className: props.className,
+                          type: "text"
+                        }),
+                    props.children
+                  ]
+                });
     });
 
 var FancyInput = {
@@ -31,13 +31,16 @@ function DiscouragedForwardRef(props) {
             input.focus();
           }));
   };
-  return React.createElement("div", undefined, React.createElement(make, {
-                  className: "fancy",
-                  children: React.createElement("button", {
-                        onClick: onClick
-                      }, "Click to focus"),
-                  ref: input
-                }));
+  return JsxRuntime.jsx("div", {
+              children: JsxRuntime.jsx(make, {
+                    className: "fancy",
+                    children: JsxRuntime.jsx("button", {
+                          children: "Click to focus",
+                          onClick: onClick
+                        }),
+                    ref: input
+                  })
+            });
 }
 
 var make$1 = DiscouragedForwardRef;

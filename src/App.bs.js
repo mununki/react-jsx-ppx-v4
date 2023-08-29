@@ -3,16 +3,26 @@
 import * as V4 from "./V4.bs.js";
 import * as React from "react";
 import * as Caml_option from "rescript/lib/es6/caml_option.js";
+import * as JsxRuntime from "react/jsx-runtime";
 import * as RescriptReactErrorBoundary from "@rescript/react/src/RescriptReactErrorBoundary.bs.js";
 
 function App(props) {
-  return React.createElement(RescriptReactErrorBoundary.make, {
-              children: React.createElement(React.Suspense, {
-                    children: Caml_option.some(React.createElement("div", undefined, React.createElement(V4.make, {}), "div!")),
-                    fallback: Caml_option.some(React.createElement("div", undefined, "loading.."))
+  return JsxRuntime.jsx(RescriptReactErrorBoundary.make, {
+              children: JsxRuntime.jsx(React.Suspense, {
+                    children: Caml_option.some(JsxRuntime.jsxs("div", {
+                              children: [
+                                JsxRuntime.jsx(V4.make, {}),
+                                "div!"
+                              ]
+                            })),
+                    fallback: Caml_option.some(JsxRuntime.jsx("div", {
+                              children: "loading.."
+                            }))
                   }),
               fallback: (function (param) {
-                  return React.createElement("div", undefined, "error!");
+                  return JsxRuntime.jsx("div", {
+                              children: "error!"
+                            });
                 })
             });
 }
