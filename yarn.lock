@@ -1512,10 +1512,9 @@
     schema-utils "^3.0.0"
     source-map "^0.7.3"
 
-"@rescript/react@0.12.0-alpha.3":
-  version "0.12.0-alpha.3"
-  resolved "https://registry.yarnpkg.com/@rescript/react/-/react-0.12.0-alpha.3.tgz#45b94e5b1f24776e74c2dfb7da38ed2c02a4651d"
-  integrity sha512-/S1uj77RPDzuLg3Ofb8KKU3Vppqy97/vF6bBdBZ+saIO9bpHVlsmmJyJG8QXjGZKE+aMynrrR3Tj4+9+5OzLdw==
+"@rescript/react@link:../rescript-react":
+  version "0.0.0"
+  uid ""
 
 "@rollup/plugin-babel@^5.2.0":
   version "5.3.1"
@@ -7393,10 +7392,9 @@ requires-port@^1.0.0:
   resolved "https://registry.npmjs.org/requires-port/-/requires-port-1.0.0.tgz"
   integrity sha512-KigOCHcocU3XODJxsu8i/j8T9tzT4adHiecwORRQ0ZZFcp7ahwXuRU1m+yuO90C5ZUyGeGfocHDI14M3L3yDAQ==
 
-rescript@11.0.0-beta.4:
-  version "11.0.0-beta.4"
-  resolved "https://registry.yarnpkg.com/rescript/-/rescript-11.0.0-beta.4.tgz#07433d6d0d7118bec73954241d7a61a32c6e1dbf"
-  integrity sha512-MqTyh9LhDmA++2nemZF+amEO3kOg6a5tR43DuLVocILOAvR17UZcVcS6czGaW6+zOxvPOXVv2i/xiiWCJIDmvw==
+"rescript@link:../rescript-compiler":
+  version "0.0.0"
+  uid ""
 
 resolve-cwd@^3.0.0:
   version "3.0.0"

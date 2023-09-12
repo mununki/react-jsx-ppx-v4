@@ -27,11 +27,11 @@ var Bar = {
 };
 
 function V4$Baz(props) {
-  var name = props.name;
-  var name$1 = name !== undefined ? name : "baz";
+  var __name = props.name;
+  var name = __name !== undefined ? __name : "baz";
   return JsxRuntime.jsxs("div", {
               children: [
-                name$1,
+                name,
                 props.children
               ],
               id: props.id2
