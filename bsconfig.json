@@ -27,6 +27,5 @@
   },
   "bsc-flags": [
     "-open Belt"
-  ],
-  "uncurried": false
+  ]
 }
